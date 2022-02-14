@@ -16,7 +16,7 @@ export default function index() {
                         Notion Templates - What’s the hype all about?
                     </h5>
                     <p className='text-neutral-500 leading-[30px] mt-5 text-xl tracking-[-0.015em]'>Absolutely love this kit guys, you've done an incredible job and it's saved me countless hours in getting my V1 out Keep up the amazing work!</p>
-                    <button className='mt-8 relative w-36 flex justify-center items-center'>
+                    <button className='hover:-translate-y-1 ease-in-out transition duration-500 mt-8 relative w-36 flex justify-center items-center'>
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-temp-btn.png" alt="" />
                         <div className='absolute flex text-base leading-none text-neutral-900 tracking-[-0.015em]  justify-center items-center space-x-3'>
                             <p>Read More</p>
@@ -40,7 +40,7 @@ export default function index() {
                         Notion Templates - What’s the hype all about?
                     </h5>
                     <p className='text-neutral-500 leading-[30px] mt-5 text-xl tracking-[-0.015em]'>Absolutely love this kit guys, you've done an incredible job and it's saved me countless hours in getting my V1 out Keep up the amazing work!</p>
-                    <button className='mt-8 relative w-36 flex justify-center items-center'>
+                    <button className='hover:-translate-y-1 ease-in-out transition duration-500 mt-8 relative w-36 flex justify-center items-center'>
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-temp-btn.png" alt="" />
                         <div className='absolute flex text-base leading-none text-neutral-900 tracking-[-0.015em]  justify-center items-center space-x-3'>
                             <p>Read More</p>

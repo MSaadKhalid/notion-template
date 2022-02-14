@@ -2,9 +2,8 @@ import React from 'react'
 
 function index() {
   return (
-    <div className='flex flex-row bg-neutral-50 justify-start items-center 2xl:container 2xl:mx-auto border-b border-l  border-neutral-200'>
-        <img className='ml-[75px] h-full' src="https://tuk-cdn.s3.amazonaws.com/can-uploader/react-ui-again-hero4.png " alt="hero-img" />
-        <div className='absolute px-16 flex flex-col justify-start items-start'>
+    <div className='flex relative z-0 flex-row bg-neutral-50 justify-start items-center 2xl:container 2xl:mx-auto border-b border-l  border-neutral-200'>
+        <div className='w-2/3 px-16 flex flex-col justify-start items-start'>
                 <h1 className='gradientText leading-[96px] text-8xl tracking-[-0.06em] font-bold'>Notion</h1>
                <div>
                    <h1 className='text-8xl leading-[96px] tracking-[-0.06em] text-neutral-900 font-bold'>
@@ -22,6 +21,12 @@ function index() {
                 See Pricing
                 </button>
                </div>
+        </div>
+        <div className='h-full w-2/3'>
+        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-template-hero-gradient.png" alt="gradient" />
+        <div className='inset-y-20 -right-36 w-2/3  absolute z-10'>
+        <img className='w-full' src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-temp-hero-image.png" alt="hero-img" />
+        </div>
         </div>
     </div>
   )
