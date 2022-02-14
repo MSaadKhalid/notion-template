@@ -22,10 +22,10 @@ function index() {
                 </button>
                </div>
         </div>
-        <div className='h-full w-2/3'>
-        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-template-hero-gradient.png" alt="gradient" />
-        <div className='inset-y-20 -right-36 w-2/3  absolute z-10'>
-        <img className='w-full' src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-temp-hero-image.png" alt="hero-img" />
+        <div className=' h-full w-2/3'>
+        <img className='h-full' src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-template-hero-gradient.png" alt="gradient" />
+        <div className='inset-y-20  -right-24 w-3/5  absolute'>
+        <img className='' src="https://tuk-cdn.s3.amazonaws.com/can-uploader/notion-temp-hero-image.png" alt="hero-img" />
         </div>
         </div>
     </div>
